@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import HeaderSocials from '../header/HeaderSocials'
 
 const Navbar = () => {
   return (
@@ -18,6 +19,7 @@ const Navbar = () => {
           <a href="#">Contacts</a>
         </li>
       </ul>
+      <HeaderSocials />
     </div>
   )
 }
