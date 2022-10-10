@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Header from './components/header/Header'
-import Navbar from './components/nav/Navbar'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
 import Services from './components/services/Services'
@@ -13,7 +12,6 @@ function App() {
   return (
     <>
     <Header />
-    <Navbar />
     <Skills />
     <Projects />
     <Services />

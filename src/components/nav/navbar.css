@@ -1,0 +1,21 @@
+.portfolio__navbar--menu{
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.portfolio__navbar--menu > ul > li {
+    display: inline;
+    margin: 30px;
+    font-size: 1.5rem;
+}
+
+.portfolio__navbar--menu > ul > li > a{
+    color: #a5a4c5;
+    opacity: 0.5;
+}
+
+.portfolio__navbar--menu > ul > li > a:hover{
+    color: white;
+    opacity: 1;
+}

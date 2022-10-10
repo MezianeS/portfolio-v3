@@ -8,13 +8,17 @@ header {
 }
 
 .header__titre{
-    margin: 1%;
+    margin-left: 6%;
 }
 
-img {
+.header__moiastronaute > img {
     position: absolute;
     height: 700px;
     right: 100px;
     bottom: 150px;
-
 }
+.header__title--nav{
+    display: flex;
+    justify-content: space-between;
+}
+
