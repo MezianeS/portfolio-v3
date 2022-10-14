@@ -6,7 +6,8 @@ const HeaderSocials = () => {
   return (
     <div className='header__socials--menu'>
       <div className="header__socials--icons">
-        <TiSocialLinkedinCircular />
+        <img src="./../../assets/icons/nav-icon1.svg" alt="" />
+        <img src="../../assets/icons/nav-icon1.svg" alt="" />
         <VscGithub />
       </div>
       <div className="header__socials--contactme">
