@@ -26,7 +26,22 @@ header {
 .header__socials--menu{
     display: flex;
 }
+.header__socials--icons{
+    display: flex;
+}
 
 .header--socials--ico{
-    font-size: 50px;
+    font-size: 1.6em;
 }
+
+.icon_border{
+    border: 1px solid rgb(255, 255, 255, 0.2 );
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 11%;
+    margin: 6px;
+    border-radius: 50%;
+    display: flex;
+}
+
+
+

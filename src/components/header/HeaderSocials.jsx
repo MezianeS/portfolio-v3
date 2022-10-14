@@ -8,8 +8,12 @@ const HeaderSocials = () => {
   return (
     <div className='header__socials--menu'>
       <div className="header__socials--icons">
-        <BsGithub className='header--socials--ico' />
-        <FaLinkedinIn className='header--socials--ico' />
+        <div className="icon_border">
+          <BsGithub className='header--socials--ico' />
+        </div>
+        <div className="icon_border">
+          <FaLinkedinIn className='header--socials--ico' />
+        </div>
       </div>
       <div className="header__socials--contactme">
         <a href="#">Contact me</a>
