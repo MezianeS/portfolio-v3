@@ -1,14 +1,15 @@
 import React from 'react'
 import { TiSocialLinkedinCircular } from 'react-icons/ti'
 import { VscGithub } from 'react-icons/vsc'
+import { BsGithub } from 'react-icons/bs'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 const HeaderSocials = () => {
   return (
     <div className='header__socials--menu'>
       <div className="header__socials--icons">
-        <img src="./../../assets/icons/nav-icon1.svg" alt="" />
-        <img src="../../assets/icons/nav-icon1.svg" alt="" />
-        <VscGithub />
+        <BsGithub className='header--socials--ico' />
+        <FaLinkedinIn className='header--socials--ico' />
       </div>
       <div className="header__socials--contactme">
         <a href="#">Contact me</a>

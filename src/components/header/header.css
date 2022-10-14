@@ -20,9 +20,13 @@ header {
 .header__title--nav{
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .header__socials--menu{
     display: flex;
 }
 
+.header--socials--ico{
+    font-size: 50px;
+}
