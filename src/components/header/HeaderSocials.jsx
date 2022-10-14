@@ -14,9 +14,9 @@ const HeaderSocials = () => {
         <div className="icon_border">
           <FaLinkedinIn className='header--socials--ico' />
         </div>
-      </div>
-      <div className="header__socials--contactme">
-        <a href="#">Contact me</a>
+        <div className="header__socials--contactme">
+          <a href="#">Let's Connect</a>
+        </div>
       </div>
     </div>
   )
