@@ -38,10 +38,6 @@ header {
     font-weight: 600;
 }
 
-.header__menu li a:hover{
-    color: #de405b;
-    transition: var(--transition)
-}
 
 
 
@@ -68,6 +64,12 @@ header {
         right: 100px;
         bottom: 150px;
     } 
+
+    .header__menu li a:hover{
+        color: #de405b;
+        transition: var(--transition)
+    }
+    
 
 }
 
