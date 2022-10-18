@@ -12,7 +12,38 @@ header {
     width: 70%;
     right: 10%;
     bottom: 10%;
-} 
+}
+
+.header__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-test);
+    padding-right: 10%;
+
+}
+
+.header__menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header__menu li {
+    padding: 5px 0 5px 0;
+}
+
+.header__menu li a {
+    color: white; 
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.header__menu li a:hover{
+    color: #de405b;
+    transition: var(--transition)
+}
+
+
 
 
 
