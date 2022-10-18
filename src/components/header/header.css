@@ -18,15 +18,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--color-test);
-    padding-right: 10%;
+    padding-right: 5%;
+    -webkit-box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); 
+box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43);
 
 }
 .header__title ul {
     overflow: hidden;
     position: absolute;
-    right: 272px;
-    top: 106px; 
+    top: 12%; 
 }
 
 .header__menu{
@@ -39,7 +39,7 @@ header {
 }
 
 .header__menu li a {
-    color: white; 
+    color: rgba(255, 255, 255, 0.7); 
     font-size: 1.3em;
     font-weight: 600;
 }
@@ -63,43 +63,35 @@ header {
   }
 
 .menu-button{
-    background: red;
+    background: white;
     display: block;
-    height: 2px;
+    height: 3px;
     position: relative;
     transition: background .2s ease-out;
-    width: 18px;
+    width: 28px;
 }
 
 .menu-button::before,
 .menu-button::after {
-    background: red;
+    background: white;
     content: "";
     display: block;
     height: 100%;
     position: absolute;
     transition: all .2s ease-out;
-    width: 100%;
+    width: 80%;
 }
 
 .menu-button::before{
-    top: 5px;
+    top: 10px;
 }
 
 .menu-button::after{
-    top: -5px;
-}
-
-.menu-button-container{
-    color: red;
+    top: -10px;
 }
 
 .header__title #menu-toggle {
     display: none;
-}
-
-.header__title #menu-toggle:checked ~ .header__menu {
-    max-height: 240px;
 }
 
 .header__title #menu-toggle:checked ~ .menu-button-container .menu-button {
