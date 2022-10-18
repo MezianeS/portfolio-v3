@@ -10,10 +10,10 @@ const Header = () => {
       </div>
       <div className="container header__title">
         <h1>Portfolio</h1>
-        {/* <input id="menu-toggle" type="checkbox" />
-        <label className="menu-button-container" for="menu-toggle">
+        <input id="menu-toggle" type="checkbox" />
+        <label className="menu-button-container" htmlFor="menu-toggle">
           <div className="menu-button"></div>
-        </label> */}
+        </label>
         <ul className="header__menu">
           <li><a href="#Skills">Skills</a></li>
           <li><a href="#Projects">Projects</a></li>

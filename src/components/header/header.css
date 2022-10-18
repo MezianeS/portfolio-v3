@@ -38,10 +38,51 @@ header {
     font-weight: 600;
 }
 
+.menu-button{
+    background: red;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.menu-button:before,
+.menu-button:after {
+    background: red;
+    content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
 
 
+.menu-button-container{
+    color: red;
+}
 
+.header__title #menu-toggle {
+    display: none;
+}
 
+.header__title #menu-toggle:checked ~ .header__menu {
+    max-height: 240px;
+}
+
+.header__title #menu-toggle:checked ~ #menu-toggle .menu-button {
+    background: transparent;
+}
+
+.header__title #menu-toggle:checked ~ #menu-toggle .menu-button:before {
+    transform: rotate(-45deg);
+}
+
+.header__title #menu-toggle:checked ~ #menu-toggle .menu-button:after {
+    transform: rotate(45deg);
+}
 
 
 @media only screen and (min-width: 768px) {
