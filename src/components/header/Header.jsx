@@ -12,7 +12,7 @@ const Header = () => {
         <h1>Portfolio</h1>
         <input id="menu-toggle" type="checkbox" />
         <label className="menu-button-container" htmlFor="menu-toggle">
-          <div className="menu-button"></div>
+          <span className="menu-button"></span>
         </label>
         <ul className="header__menu">
           <li><a href="#Skills">Skills</a></li>

@@ -38,6 +38,10 @@ header {
     font-weight: 600;
 }
 
+
+/****************************************/
+/***************** BUTTON ***************/
+/****************************************/
 .menu-button{
     background: red;
     display: block;
@@ -47,10 +51,10 @@ header {
     width: 18px;
 }
 
-.menu-button:before,
-.menu-button:after {
+.menu-button::before,
+.menu-button::after {
     background: red;
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     position: absolute;
@@ -58,6 +62,13 @@ header {
     width: 100%;
 }
 
+.menu-button::before{
+    top: 5px;
+}
+
+.menu-button::after{
+    top: -5px;
+}
 
 .menu-button-container{
     color: red;
