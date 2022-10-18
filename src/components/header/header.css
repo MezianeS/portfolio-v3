@@ -22,6 +22,12 @@ header {
     padding-right: 10%;
 
 }
+.header__title ul {
+    overflow: hidden;
+    position: absolute;
+    right: 272px;
+    top: 106px; 
+}
 
 .header__menu{
     display: flex;
@@ -39,9 +45,23 @@ header {
 }
 
 
+
+
 /****************************************/
 /***************** BUTTON ***************/
 /****************************************/
+
+
+.header__menu{
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.header__title #menu-toggle:checked ~ .header__menu {
+    max-height: 240px;
+  }
+
 .menu-button{
     background: red;
     display: block;
@@ -82,17 +102,23 @@ header {
     max-height: 240px;
 }
 
-.header__title #menu-toggle:checked ~ #menu-toggle .menu-button {
+.header__title #menu-toggle:checked ~ .menu-button-container .menu-button {
     background: transparent;
 }
 
-.header__title #menu-toggle:checked ~ #menu-toggle .menu-button:before {
+.header__title #menu-toggle:checked ~ .menu-button-container .menu-button:before {
     transform: rotate(-45deg);
 }
 
-.header__title #menu-toggle:checked ~ #menu-toggle .menu-button:after {
+.header__title #menu-toggle:checked ~ .menu-button-container .menu-button:after {
     transform: rotate(45deg);
 }
+
+.header__title #menu-toggle:checked ~ .menu-button-container:not(.steps) .menu-button:after,
+.header__title #menu-toggle:checked ~ .menu-button-container:not(.steps) .menu-button:before {
+    top:0;
+}
+
 
 
 @media only screen and (min-width: 768px) {

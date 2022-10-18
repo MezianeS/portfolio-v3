@@ -21,7 +21,6 @@ const Header = () => {
           <li><a href="#Contact">Contact</a></li>
         </ul>
       </div>
-
     </header>
   )
 }
