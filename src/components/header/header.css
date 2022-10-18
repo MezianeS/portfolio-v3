@@ -68,7 +68,7 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43);
     height: 3px;
     position: relative;
     transition: background .2s ease-out;
-    width: 28px;
+    width: 32px;
 }
 
 .menu-button::before,
@@ -79,8 +79,10 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43);
     height: 100%;
     position: absolute;
     transition: all .2s ease-out;
-    width: 80%;
+    width: 28px;
+    text-align: center;
 }
+
 
 .menu-button::before{
     top: 10px;
