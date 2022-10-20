@@ -9,7 +9,7 @@ header {
 
 .header__moiastronaute > img {
     position: absolute;
-    width: 70%;
+    width: 60%;
     right: 10%;
     bottom: 10%;
 }
@@ -25,7 +25,7 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
 .header__title ul {
     overflow: hidden;
     position: absolute;
-    top: 14%; 
+    top: 90px; 
     left: 0;
     background: rgba(56, 56, 56, 0.1);
     border-bottom-left-radius: 30px;
@@ -134,7 +134,7 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
 @media only screen and (min-width: 768px) {
     .header__moiastronaute > img {
         position: absolute;
-        width: 50%;
+        width: 42%;
         right: 5%;
         bottom: 8%;
     } 
