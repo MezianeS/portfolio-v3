@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.css'
 import Navbar from '../nav/Navbar'
+import { BsGithub } from 'react-icons/bs'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 const Header = () => {
   return (
@@ -19,6 +21,9 @@ const Header = () => {
           <li><a href="#Projects">Projects</a></li>
           <li><a href="#Services">Services</a></li>
           <li><a href="#Contact">Contact</a></li>
+          <li><a href="#"><BsGithub /></a></li>
+          <li><a href="#"><FaLinkedinIn /></a></li>
+          <li><a href="#">Contact me</a></li>
         </ul>
       </div>
     </header>
