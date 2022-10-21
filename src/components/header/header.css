@@ -178,7 +178,6 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
 
     .header__menu li:nth-of-type(5), .header__menu li:nth-of-type(6) {
         padding: 5px 5px 5px 5px;
-        background: red;
     }
     
     .header__menu li{
@@ -196,7 +195,12 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
         
     }
 
-
+    .header__icon {
+        border: solid rgba(255, 255, 255, 0.548) 3px;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+    }
 
 }
 
