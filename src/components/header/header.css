@@ -12,6 +12,9 @@ header {
     width: 60%;
     right: 10%;
     bottom: 10%;
+    animation: var(--animation);
+    pointer-events: none;
+    border: none;
 }
 
 .header__title{

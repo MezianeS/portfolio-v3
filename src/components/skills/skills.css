@@ -1,4 +1,55 @@
 .skills__menu {
-    background-color: red;
-    
+    background-color: rgb(27, 27, 27);
+    border-radius: 50px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
 }
+
+.skills__menu h2 {
+    font-size: 2em;
+    margin: 40px 10px 50px 10px;
+}
+
+.skills__menu p:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+.skills__menu--img {
+    width: 200px;
+    margin-top:30px;
+}
+
+/*******CAROUSEL******/
+/* 
+.skills__menu--carousel {
+    display: flex;
+    flex-wrap:nowrap;
+    overflow: hidden;
+}
+
+.skills__menu--carousel div {
+    max-height: 400px;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    flex-direction: column;
+
+} */
+
+
+
+
+
+/* pc format */
+/* .skills__menu h1 {
+    margin: 10px;
+}
+
+.skills__menu--img{
+    width: 300px;
+}
+ */
