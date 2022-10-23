@@ -75,7 +75,7 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
 }
 
 .header__title #menu-toggle:checked ~ .header__menu {
-    max-height: 240px;
+    max-height: 400px;
     backdrop-filter: blur(5px);
   }
 
@@ -144,8 +144,13 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
 
 @media only screen and (min-width: 1024px) {
 
+
+    .header__title{
+        padding-right: 0;
+        align-items: flex-end;
+    }
     .header__title h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .header__moiastronaute > img {
@@ -166,10 +171,12 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
         flex-direction: row;
         max-height: 100%;
         justify-content: flex-end;
+        align-items: baseline;
         }
 
     .header__title ul {
         position:unset;
+        background: none;
     }
 
     .menu-button{
@@ -177,30 +184,55 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
     }
 
     .header__menu li:nth-of-type(5), .header__menu li:nth-of-type(6) {
-        padding: 5px 5px 5px 5px;
+        padding: 5px 2px 5px 2px;
     }
     
     .header__menu li{
-        padding: 5px 30px 5px 30px;
+        padding: 5px 10px 5px 10px;
     }
 
     .header__menu li a {
-        font-size: 1.4em;
+        font-size: 1em;
+        display: flex;
+        padding: 5px 5px 5px 5px;
     }
 
     .header__menu li a:hover {
-        color: white;
         transform: scale(1);
-        background: rgba(56, 56, 56, 0.3);
-        
+        background: none;
     }
 
     .header__icon {
-        border: solid rgba(255, 255, 255, 0.548) 3px;
+        border: solid rgba(255, 255, 255, 0.548) 2px;
         border-radius: 100%;
         width: 40px;
         height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(214, 214, 214, 0.075);
     }
 
+    .header__connect{
+        padding: 10px 15px 10px 15px;
+        border: solid rgba(255, 255, 255, 0.548) 2px;
+        background: rgba(214, 214, 214, 0.075);
+    }
+
+    .header__icon:hover, .header__connect:hover{
+        color: white !important;
+    }
 }
 
+@media only screen and (min-width: 1360px) {
+    .header__menu li {
+        padding: 5px 25px 5px 25px;
+    }
+
+    .header__title h1 {
+        font-size: 3em;
+    }
+
+    .header__menu li a {
+        font-size: 1.3em;
+    }
+ }
