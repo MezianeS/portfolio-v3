@@ -3,6 +3,7 @@ import './skills.css'
 import img1 from "./../../assets/radialbarquatrovingt.svg"
 import img2 from "./../../assets/radialbarquatro.svg"
 import img3 from "./../../assets/radialbarsept.svg"
+import Slider from "./Slider"
 
 const Skills = () => {
   return (
@@ -26,6 +27,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <Slider />
     </div>
   )
 }
