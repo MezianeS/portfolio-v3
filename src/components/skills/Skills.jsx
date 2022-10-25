@@ -26,8 +26,9 @@ const Skills = () => {
             <p>UI Design</p>
           </div>
         </div>
+        <Slider />
       </div>
-      <Slider />
+
     </div>
   )
 }
