@@ -30,8 +30,8 @@ const ImageSlider = ({slides}) => {
     }
     return (
         <div className="slider__menu--sliderstyle">
-            <div style={leftArrowStyle}><AiFillLeftCircle /></div>
-            <div style={rightArrowStyle}><AiFillRightCircle /></div>
+            <div style={leftArrowStyle} onClick={goToPrevious}><AiFillLeftCircle /></div>
+            <div style={rightArrowStyle} onClick={goToNext}><AiFillRightCircle /></div>
             <div style={slideStyles} className="slider__menu--slide">
             </div>
         </div>
