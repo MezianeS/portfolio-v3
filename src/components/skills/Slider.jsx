@@ -1,9 +1,7 @@
 import React from 'react'
 import ImageSlider from './ImageSlider'
 import './slider.css'
-import img1 from "./../../assets/radialbarquatrovingt.svg"
-import img2 from "./../../assets/radialbarquatro.svg"
-import img3 from "./../../assets/radialbarsept.svg"
+
 
 const Slider = () => {
     const slides =[
