@@ -12,7 +12,8 @@ const ImageSlider = ({slides}) => {
         borderRadius: "10px",
         backgroundPosition:'center',
         backgroundRepeat: 'no-repeat',
-        backgroundImage: `url(${slides[currentIndex].url})`,  
+        backgroundImage: `url(${slides[currentIndex].url})`,
+        content: `url(${slides[currentIndex].title})`,    
               
     };
     const leftArrowStyle = {
@@ -43,8 +44,8 @@ const ImageSlider = ({slides}) => {
         <div className="slider__menu--sliderstyle">
             <div style={leftArrowStyle} onClick={goToPrevious}><AiFillLeftCircle /></div>
             <div style={rightArrowStyle} onClick={goToNext}><AiFillRightCircle /></div>
-            <div style={slideStyles} className="slider__menu--slide">
-            </div>
+            <div style={slideStyles} className="slider__menu--slide"></div>
+            <div>{slideStyles.content}</div>
         </div>
     )
 };
