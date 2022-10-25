@@ -12,7 +12,8 @@ const Skills = () => {
         <h2 id="skills">Skills</h2>
         <p>Keen in solving problems and building solutions</p>
         <p>I like to code things from scratch and enjoy bringing ideas to life in browser.</p>
-        <div className="skills__menu--carousel">
+        {/* After creation of slider, comment this */}
+        {/* <div className="skills__menu--carousel">
           <div className='skills__menu--carousel-items1'>
             <img src={img2} alt="" className='skills__menu--img'/>
             <p>Frontend Development</p>
@@ -25,7 +26,7 @@ const Skills = () => {
             <img src={img1} alt="" className='skills__menu--img'/>
             <p>UI Design</p>
           </div>
-        </div>
+        </div> */}
         <Slider />
       </div>
 

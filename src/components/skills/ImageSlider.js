@@ -13,7 +13,7 @@ const ImageSlider = ({slides}) => {
         backgroundPosition:'center',
         backgroundRepeat: 'no-repeat',
         backgroundImage: `url(${slides[currentIndex].url})`,
-        content: `url(${slides[currentIndex].title})`,    
+        content: `${slides[currentIndex].title}`,    
               
     };
     const leftArrowStyle = {
@@ -21,6 +21,7 @@ const ImageSlider = ({slides}) => {
         top: '40%',
         fontSize: "38px",
         cursor: 'pointer',
+        color: 'rgba(82, 81, 87, 0.725)',
     };
     const rightArrowStyle = {
         position: 'absolute',
@@ -28,6 +29,7 @@ const ImageSlider = ({slides}) => {
         right: '0%',
         fontSize: "38px",
         cursor: 'pointer',
+        color: 'rgba(82, 81, 87, 0.725)',
     };
 
     const goToPrevious = () => {
