@@ -34,6 +34,11 @@ const ImageSlider = ({slides}) => {
         const newIndex = isFirstSlide ? slides.length -1 : currentIndex - 1;
         setCurrentIndex(newIndex);
     }
+    const goToNext = () => {
+        const isLastSlide = currentIndex === slides.length -1;
+        const newIndex = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(newIndex)
+    }
     return (
         <div className="slider__menu--sliderstyle">
             <div style={leftArrowStyle} onClick={goToPrevious}><AiFillLeftCircle /></div>
