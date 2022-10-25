@@ -7,7 +7,6 @@
 .slider__menu--sliderstyle {
     height: 100%;
     position: relative;
-    overflow: hidden;
 }
 
 .slider__menu--slide {
