@@ -1,4 +1,6 @@
 import { useState } from "react"
+import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai'
+
 
 
 const ImageSlider = ({slides}) => {
@@ -15,19 +17,19 @@ const ImageSlider = ({slides}) => {
     };
     const leftArrowStyle = {
         position: 'absolute',
-        top: '50%',
+        top: '47%',
     };
     const rightArrowStyle = {
         position: 'absolute',
-        top: '50%',
+        top: '47%',
+        right: '0%',
     }
     return (
         <div className="slider__menu--sliderstyle">
-            <div style={leftArrowStyle} >(</div>
-            <div style={rightArrowStyle}>)</div>
+            <div style={leftArrowStyle}><AiFillLeftCircle /></div>
+            <div style={rightArrowStyle}><AiFillRightCircle /></div>
             <div style={slideStyles} className="slider__menu--slide">
             </div>
-            
         </div>
     )
 };
