@@ -17,12 +17,14 @@ const ImageSlider = ({slides}) => {
     };
     const leftArrowStyle = {
         position: 'absolute',
-        top: '47%',
+        top: '40%',
+        fontSize: "38px",
     };
     const rightArrowStyle = {
         position: 'absolute',
-        top: '47%',
+        top: '40%',
         right: '0%',
+        fontSize: "38px",
     }
     return (
         <div className="slider__menu--sliderstyle">
