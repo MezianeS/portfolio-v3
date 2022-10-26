@@ -17,11 +17,6 @@ const ImageSlider = ({slides}) => {
               
     };
     const leftArrowStyle = {
-        position: 'absolute',
-        top: '40%',
-        fontSize: "38px",
-        cursor: 'pointer',
-        color: 'rgba(82, 81, 87, 0.725)',
     };
     const rightArrowStyle = {
         position: 'absolute',
