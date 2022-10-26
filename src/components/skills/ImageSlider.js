@@ -44,10 +44,10 @@ const ImageSlider = ({slides}) => {
     }
     return (
         <div className="slider__menu--sliderstyle">
-            <div style={leftArrowStyle} onClick={goToPrevious}><AiFillLeftCircle /></div>
-            <div style={rightArrowStyle} onClick={goToNext}><AiFillRightCircle /></div>
+            <div className="slide__menu--btn" style={leftArrowStyle} onClick={goToPrevious}><AiFillLeftCircle /></div>
+            <div className="slide__menu--btn" style={rightArrowStyle} onClick={goToNext}><AiFillRightCircle /></div>
             <div style={slideStyles} className="slider__menu--slide"></div>
-            <div>{slideStyles.content}</div>
+            <div className="slider__menu--text">{slideStyles.content}</div>
         </div>
     )
 };
