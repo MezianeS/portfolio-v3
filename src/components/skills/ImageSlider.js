@@ -16,12 +16,7 @@ const ImageSlider = ({slides}) => {
         content: `${slides[currentIndex].title}`,    
               
     };
-    const leftArrowStyle = {
-    };
-    const rightArrowStyle = {
-        cursor: 'pointer',
-        color: 'rgba(82, 81, 87, 0.725)',
-    };
+
 
     const goToPrevious = () => {
         const isFirstSlide = currentIndex === 0;
@@ -35,8 +30,8 @@ const ImageSlider = ({slides}) => {
     }
     return (
         <div className="slider__menu--sliderstyle">
-            <div style={leftArrowStyle} onClick={goToPrevious}><AiFillLeftCircle className="slide__menu--left"/></div>
-            <div style={rightArrowStyle} onClick={goToNext}><AiFillRightCircle className="slide__menu--right" /></div>
+            <div onClick={goToPrevious}><AiFillLeftCircle className="slide__menu--left"/></div>
+            <div onClick={goToNext}><AiFillRightCircle className="slide__menu--right" /></div>
             <div style={slideStyles} className="slider__menu--slide"></div>
             <div className="slider__menu--text">{slideStyles.content}</div>
         </div>
