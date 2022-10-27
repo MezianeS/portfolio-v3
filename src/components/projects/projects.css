@@ -1,0 +1,18 @@
+.projects__container {
+    background-color: black;
+    padding: 30px 10px 100px 10px;
+}
+
+.projects__entete{
+    text-align: center;
+}
+
+.projects__entete--title {
+    margin: 40px 10px 50px 10px;
+}
+
+
+.projects__menu--button {
+    display: flex;
+    justify-content: center;
+}
