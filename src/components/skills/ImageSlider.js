@@ -19,10 +19,6 @@ const ImageSlider = ({slides}) => {
     const leftArrowStyle = {
     };
     const rightArrowStyle = {
-        position: 'absolute',
-        top: '40%',
-        right: '0%',
-        fontSize: "38px",
         cursor: 'pointer',
         color: 'rgba(82, 81, 87, 0.725)',
     };
@@ -39,8 +35,8 @@ const ImageSlider = ({slides}) => {
     }
     return (
         <div className="slider__menu--sliderstyle">
-            <div style={leftArrowStyle} onClick={goToPrevious}><AiFillLeftCircle className="slide__menu--btn"/></div>
-            <div style={rightArrowStyle} onClick={goToNext}><AiFillRightCircle className="slide__menu--btn" /></div>
+            <div style={leftArrowStyle} onClick={goToPrevious}><AiFillLeftCircle className="slide__menu--left"/></div>
+            <div style={rightArrowStyle} onClick={goToNext}><AiFillRightCircle className="slide__menu--right" /></div>
             <div style={slideStyles} className="slider__menu--slide"></div>
             <div className="slider__menu--text">{slideStyles.content}</div>
         </div>

@@ -19,23 +19,25 @@
     transition: 0.2s all;
 }
 
-.slide__menu--btn:nth-of-type(1){
+.slide__menu--left{
     left: 0Px;
     top: 40%;
     position: absolute;
     font-size: 38px;
     color:rgba(82, 81, 87, 0.725);
+    cursor: pointer;
 }
 
-.slide__menu--btn:nth-of-type(2){
-    left: 0px;
+.slide__menu--right{
+    right: 0px;
     top: 40%;
     position: absolute;
     font-size: 38px;
     color:rgba(82, 81, 87, 0.725);
+    cursor: pointer;
 }
 
 
-.slide__menu--btn:hover {
+.slide__menu--left:hover, .slide__menu--right:hover {
     color: rgba(140, 138, 146, 0.725);
 }
