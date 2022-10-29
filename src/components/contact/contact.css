@@ -1,3 +1,19 @@
 .contact__background {
     background-image: linear-gradient(to right, #312752 0%, #5f0046  51%, #AA076B  100%);
 }
+
+.contact__entete{
+    text-align: center;
+
+}
+.contact__entete h2 {
+    font-size: 2em;
+}
+
+.contact__entete--title {
+    margin: 40px 10px 50px 10px;
+}
+
+.contact__entete--text{
+    margin-bottom: 50px;
+}
