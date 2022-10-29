@@ -8,6 +8,7 @@ import Slider from "./Slider"
 const Skills = () => {
   return (
     <div className='container skills__container'>
+      <div className='skills__fontimg'></div>
       <div className="skills__menu">
         <h2 id="skills">Skills</h2>
         <p>Keen in solving problems and building solutions</p>
