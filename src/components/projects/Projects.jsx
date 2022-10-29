@@ -58,7 +58,7 @@ const Projects = () => {
           </a>
         </div>
         <div className='projects-item'>
-          <a href="Three">
+          <a href="https://www.bikessels.mezianesofiane.com/">
             <img src={ Bikessels } alt="Site de location de vélo" />
             <div className="projects-txt">
               <h4>Bicycle rental app</h4>
