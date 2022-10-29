@@ -76,7 +76,7 @@ const Projects = () => {
           </a>
         </div>
         <div className='projects-item'>
-          <a href="One">
+          <a href="https://webagency.mezianesofiane.com/">
             <img src={ Webagencywebsite } alt="Web agency" />
             <div className="projects-txt">
               <h4>Web Integration</h4>
