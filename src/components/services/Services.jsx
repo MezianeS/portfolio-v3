@@ -15,55 +15,55 @@ const Services = () => {
       <div className="services__main--container">
         <div className='services__main--content'>
           <div className="services__main--title">
-
+            <h4>Development</h4>
           </div>
           <div className="services__main--text">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
           </div>
         </div>
         
         <div className='services__main--content'>
           <div className="services__main--title">
-
+            <h4>Responsive Design</h4>
           </div>
           <div className="services__main--text">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
           </div>
         </div>
         
         <div className='services__main--content'>
           <div className="services__main--title">
-
+            <h4>Web Design</h4>
           </div>
           <div className="services__main--text">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
           </div>
         </div>
         
         <div className='services__main--content'>
           <div className="services__main--title">
-
+            <h4>Creative Design</h4>
           </div>
           <div className="services__main--text">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
           </div>
         </div>
         
         <div className='services__main--content'>
           <div className="services__main--title">
-
+            <h4>Quick Support</h4>
           </div>
           <div className="services__main--text">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
           </div>
         </div>
         
         <div className='services__main--content'>
           <div className="services__main--title">
-
+            <h4>Branding Identity</h4>
           </div>
           <div className="services__main--text">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
           </div>
         </div>
       
