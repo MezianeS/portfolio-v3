@@ -49,7 +49,7 @@ const Projects = () => {
           </a>
         </div>
         <div className='projects-item'>
-          <a href="Four">
+          <a href="https://alaskaproject.mezianesofiane.com/">
             <img src={ Ecrivwebsite } alt="Site pour un écrivain" />
             <div className="projects-txt">
               <h4>Alaska essay</h4>
