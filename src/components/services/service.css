@@ -1,6 +1,6 @@
 .services__entete{
     text-align: center;
-
+    margin-bottom:60px;
 }
 .services__entete h2 {
     font-size: 2em;
@@ -9,4 +9,16 @@
 .services__entete--title {
     margin: 40px 10px 50px 10px;
     padding-top: 30px;
+}
+
+.services__main--container {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.services__main--content {
+    border: 1px solid rgba(148, 148, 148, 0.8);
+    padding: 20px 10px;
 }
