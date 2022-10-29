@@ -111,3 +111,12 @@
     font-style: italic;
 }
          
+@media only screen and (min-width: 768px) { 
+    .projects__menu--projectslist {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 32px;
+        row-gap: 28px;
+    }
+
+
+}
