@@ -19,7 +19,7 @@ const Projects = () => {
         <div className='projects__menu'>
           <div className="projects__menu--button">
             <div className="nav-item">
-              <a href="#">Plan</a>
+              <a href="#Projects">Plan</a>
             </div>
             {/* <div className="nav-item">
               <a href="#">Tab2</a>
@@ -33,31 +33,55 @@ const Projects = () => {
         <div className='projects-item'>
           <a href="Six">
             <img src={ Whalewebsite } alt="Whaleverse.cc" />
+            <div className="projects-txt">
+              <h4>NFT Showcase</h4>
+              <span>Design & Development</span>
+            </div>
           </a>
         </div>
         <div className='projects-item'>
           <a href="Five">
             <img src={ HKwebsite } alt="Photo de HongKong" />
+            <div className="projects-txt">
+              <h4>Hong Kong: photoweb</h4>
+              <span>Design & Development</span>
+            </div>
           </a>
         </div>
         <div className='projects-item'>
           <a href="Four">
             <img src={ Ecrivwebsite } alt="Site pour un écrivain" />
+            <div className="projects-txt">
+              <h4>Alaska essay</h4>
+              <span>Design & Development</span>
+            </div>
           </a>
         </div>
         <div className='projects-item'>
           <a href="Three">
             <img src={ Bikessels } alt="Site de location de vélo" />
+            <div className="projects-txt">
+              <h4>Bicycle rental app</h4>
+              <span>Design & Development</span>
+            </div>
           </a>
         </div>
         <div className='projects-item'>
           <a href="Two">
             <img src={ WordpressStrass } alt="Tourisme Strasbourg" />
+            <div className="projects-txt">
+              <h4>Strasbourg tourist office</h4>
+              <span>Design & Development</span>
+            </div>
           </a>
         </div>
         <div className='projects-item'>
           <a href="One">
             <img src={ Webagencywebsite } alt="Web agency" />
+            <div className="projects-txt">
+              <h4>Web Integration</h4>
+              <span>Design & Development</span>
+            </div>
           </a>
         </div>
       </div>
