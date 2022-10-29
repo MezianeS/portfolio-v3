@@ -1,11 +1,11 @@
 import React from 'react'
 import './projects.css'
-import { img1 } from './../../assets/projects/website-1.png'
-import { img2 } from './../../assets/projects/website-2.png'
-import { img3 } from './../../assets/projects/website-3.png'
-import { img4 } from './../../assets/projects/website-4.png'
-import { img5 } from './../../assets/projects/website-5.png'
-import { img6 } from './../../assets/projects/website-6.png'
+import Webagencywebsite from './../../assets/projects/website-1.png'
+import WordpressStrass from './../../assets/projects/website-2.png'
+import Bikessels from './../../assets/projects/website-3.png'
+import Ecrivwebsite from './../../assets/projects/website-4.png'
+import HKwebsite from './../../assets/projects/website-5.png'
+import Whalewebsite from './../../assets/projects/website-6.png'
 
 
 const Projects = () => {
@@ -30,12 +30,36 @@ const Projects = () => {
           </div>
         </div>
       <div className="projects__menu--projectslist">
-        <div className='projects-item'>1</div>
-        <div className='projects-item'>2</div>
-        <div className='projects-item'>3</div>
-        <div className='projects-item'>4</div>
-        <div className='projects-item'>5</div>
-        <div className='projects-item'>6</div>
+        <div className='projects-item'>
+          <a href="Six">
+            <img src={ Whalewebsite } alt="Whaleverse.cc" />
+          </a>
+        </div>
+        <div className='projects-item'>
+          <a href="Five">
+            <img src={ HKwebsite } alt="Photo de HongKong" />
+          </a>
+        </div>
+        <div className='projects-item'>
+          <a href="Four">
+            <img src={ Ecrivwebsite } alt="Site pour un écrivain" />
+          </a>
+        </div>
+        <div className='projects-item'>
+          <a href="Three">
+            <img src={ Bikessels } alt="Site de location de vélo" />
+          </a>
+        </div>
+        <div className='projects-item'>
+          <a href="Two">
+            <img src={ WordpressStrass } alt="Tourisme Strasbourg" />
+          </a>
+        </div>
+        <div className='projects-item'>
+          <a href="One">
+            <img src={ Webagencywebsite } alt="Web agency" />
+          </a>
+        </div>
       </div>
       </div>
     </div>
