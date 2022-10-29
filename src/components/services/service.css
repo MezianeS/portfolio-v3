@@ -1,0 +1,12 @@
+.services__entete{
+    text-align: center;
+
+}
+.services__entete h2 {
+    font-size: 2em;
+}
+
+.services__entete--title {
+    margin: 40px 10px 50px 10px;
+    padding-top: 30px;
+}
