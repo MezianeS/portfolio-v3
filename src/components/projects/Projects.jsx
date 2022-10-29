@@ -14,12 +14,12 @@ const Projects = () => {
             <div className="nav-item">
               <a href="#">Tab1</a>
             </div>
-            <div className="nav-item">
+            {/* <div className="nav-item">
               <a href="#">Tab2</a>
             </div>
             <div className="nav-item">
               <a href="#">Tab3</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
