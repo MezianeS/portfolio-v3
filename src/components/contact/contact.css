@@ -1,5 +1,8 @@
+.contact__container {
+    padding: 30px 0 40px 0;
+}
 .contact__background {
-    background-image: linear-gradient(to right, #312752 0%, #5f0046  51%, #AA076B  100%);
+    background: linear-gradient(90.21deg,#4A2FBD -5.91%, #AA367C 111.58%);
 }
 
 .contact__entete{
@@ -12,6 +15,7 @@
 
 .contact__entete--title {
     margin: 40px 10px 50px 10px;
+    padding-top: 30px;
 }
 
 .contact__entete--text{
