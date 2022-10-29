@@ -31,7 +31,7 @@ const Projects = () => {
         </div>
       <div className="projects__menu--projectslist">
         <div className='projects-item'>
-          <a href="Six">
+          <a href="https://www.whaleverse.cc/">
             <img src={ Whalewebsite } alt="Whaleverse.cc" />
             <div className="projects-txt">
               <h4>NFT Showcase</h4>
