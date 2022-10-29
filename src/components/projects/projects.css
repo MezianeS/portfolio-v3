@@ -11,6 +11,10 @@
     margin: 40px 10px 50px 10px;
 }
 
+.projects__entete--text{
+    margin-bottom: 50px;
+}
+
 
 .projects__menu--button {
     display: flex;
