@@ -13,7 +13,60 @@ const Services = () => {
         </p>
       </div>
       <div className="services__main--container">
+        <div className='services__main--content'>
+          <div className="services__main--title">
+
+          </div>
+          <div className="services__main--text">
+
+          </div>
+        </div>
         
+        <div className='services__main--content'>
+          <div className="services__main--title">
+
+          </div>
+          <div className="services__main--text">
+
+          </div>
+        </div>
+        
+        <div className='services__main--content'>
+          <div className="services__main--title">
+
+          </div>
+          <div className="services__main--text">
+
+          </div>
+        </div>
+        
+        <div className='services__main--content'>
+          <div className="services__main--title">
+
+          </div>
+          <div className="services__main--text">
+
+          </div>
+        </div>
+        
+        <div className='services__main--content'>
+          <div className="services__main--title">
+
+          </div>
+          <div className="services__main--text">
+
+          </div>
+        </div>
+        
+        <div className='services__main--content'>
+          <div className="services__main--title">
+
+          </div>
+          <div className="services__main--text">
+
+          </div>
+        </div>
+      
       </div>
     </div>
   )
