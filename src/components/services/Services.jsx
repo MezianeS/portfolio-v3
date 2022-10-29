@@ -2,7 +2,9 @@ import React from 'react'
 import './service.css'
 import { GrReactjs } from 'react-icons/gr'
 import { CiMobile3 } from 'react-icons/ci'
-import { BiPaintRoll } from 'react-icons/bi'
+import { SiWeb3Dotjs } from 'react-icons/si'
+import { BiPaint } from 'react-icons/bi'
+import { FiCoffee } from 'react-icons/fi'
 
 const Services = () => {
   return (
@@ -40,7 +42,7 @@ const Services = () => {
         
         <div className='services__main--content'>
           <div className="services__main--title">
-            <BiPaintRoll  className='s__main-levitate'/>
+            <SiWeb3Dotjs  className='s__main-levitate'/>
             <h4>Web Design</h4>
           </div>
           <div className="services__main--text">
@@ -50,6 +52,7 @@ const Services = () => {
         
         <div className='services__main--content'>
           <div className="services__main--title">
+            <BiPaint className='s__main-levitate' />
             <h4>Creative Design</h4>
           </div>
           <div className="services__main--text">
@@ -59,6 +62,7 @@ const Services = () => {
         
         <div className='services__main--content'>
           <div className="services__main--title">
+            <FiCoffee className='s__main-levitate' />
             <h4>Quick Support</h4>
           </div>
           <div className="services__main--text">
