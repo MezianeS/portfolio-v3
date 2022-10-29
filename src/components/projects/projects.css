@@ -62,6 +62,9 @@
     overflow: hidden;
     position: relative;
     /* margin: 10px 0 10px 0; */
+    max-width: 520px;
+    max-height: 380px;
+    margin: 0 auto;
 }
 
 .projects-item a img {
