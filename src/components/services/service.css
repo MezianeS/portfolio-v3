@@ -22,3 +22,8 @@
     border: 1px solid rgba(148, 148, 148, 0.8);
     padding: 20px 10px;
 }
+
+.s__main-icons {
+    font-size: 50px;
+    animation: var(--animation);
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import './service.css'
+import { GrReactjs } from 'react-icons/gr'
 
 const Services = () => {
   return (
@@ -15,6 +16,7 @@ const Services = () => {
       <div className="services__main--container">
         <div className='services__main--content'>
           <div className="services__main--title">
+            <GrReactjs className='s__main-icons'/>
             <h4>Development</h4>
           </div>
           <div className="services__main--text">
