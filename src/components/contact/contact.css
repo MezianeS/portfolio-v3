@@ -21,3 +21,29 @@
 .contact__entete--text{
     margin-bottom: 50px;
 }
+
+/* forms */
+/* .contact__main--mail {
+    width: 50%;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 2rem;    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
+.contact__main--mail input:hover, .contact__main--mail textarea:hover {
+    background-color: rgba(214, 214, 214, 0.032);
+}

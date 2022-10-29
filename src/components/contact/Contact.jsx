@@ -26,12 +26,14 @@ const Contact = () => {
           <p className="contact__entete--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         </div>
         {/* mail */}
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder='Your Full Name' required/>
-          <input type="email" name="email" placeholder='Your Email' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
-          <button type="submit" className='btn btn-primary'>Send Message</button>
-        </form> 
+        <div className='contact__main--mail'>
+          <form ref={form} onSubmit={sendEmail}>
+            <input type="text" name="name" placeholder='Your Full Name' required/>
+            <input type="email" name="email" placeholder='Your Email' required />
+            <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
+            <button type="submit" className='btn btn-primary'>Send Message</button>
+          </form> 
+        </div>
         {/* end mail */}
       </div>
     </div>
