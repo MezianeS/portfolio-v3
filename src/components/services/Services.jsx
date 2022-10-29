@@ -2,6 +2,7 @@ import React from 'react'
 import './service.css'
 import { GrReactjs } from 'react-icons/gr'
 import { CiMobile3 } from 'react-icons/ci'
+import { BiPaintRoll } from 'react-icons/bi'
 
 const Services = () => {
   return (
@@ -39,6 +40,7 @@ const Services = () => {
         
         <div className='services__main--content'>
           <div className="services__main--title">
+            <BiPaintRoll  className='s__main-levitate'/>
             <h4>Web Design</h4>
           </div>
           <div className="services__main--text">
