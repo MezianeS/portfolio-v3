@@ -5,7 +5,7 @@ import { CiMobile3 } from 'react-icons/ci'
 import { SiWeb3Dotjs } from 'react-icons/si'
 import { BiPaint } from 'react-icons/bi'
 import { FiCoffee } from 'react-icons/fi'
-import { GiBrandyBottle } from 'react-icons/gi'
+import { GiMountaintop } from 'react-icons/gi'
 
 const Services = () => {
   return (
@@ -73,7 +73,7 @@ const Services = () => {
         
         <div className='services__main--content'>
           <div className="services__main--title">
-            <GiBrandyBottle />
+            <GiMountaintop className='s__main-levitate' />
             <h4>Branding Identity</h4>
           </div>
           <div className="services__main--text">
