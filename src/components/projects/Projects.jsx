@@ -40,7 +40,7 @@ const Projects = () => {
           </a>
         </div>
         <div className='projects-item'>
-          <a href="Five">
+          <a href="https://hongkong.mezianesofiane.com/">
             <img src={ HKwebsite } alt="Photo de HongKong" />
             <div className="projects-txt">
               <h4>Hong Kong: photoweb</h4>
