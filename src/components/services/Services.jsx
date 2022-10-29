@@ -12,6 +12,9 @@ const Services = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsam harum necessitatibus praesentium reiciendis non quibusdam illo?
         </p>
       </div>
+      <div className="services__main--container">
+        
+      </div>
     </div>
   )
 }
