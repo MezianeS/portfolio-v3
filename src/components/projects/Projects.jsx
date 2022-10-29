@@ -67,7 +67,7 @@ const Projects = () => {
           </a>
         </div>
         <div className='projects-item'>
-          <a href="Two">
+          <a href="https://agence-strasbourg.mezianesofiane.com/">
             <img src={ WordpressStrass } alt="Tourisme Strasbourg" />
             <div className="projects-txt">
               <h4>Strasbourg tourist office</h4>
