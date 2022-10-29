@@ -25,7 +25,6 @@ const Contact = () => {
           <h2 id='Contact' className='contact__entete--title'>Contact</h2>
           <p className="contact__entete--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         </div>
-
         {/* mail */}
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Your Full Name' required/>
@@ -33,6 +32,7 @@ const Contact = () => {
           <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
           <button type="submit" className='btn btn-primary'>Send Message</button>
         </form> 
+        {/* end mail */}
       </div>
     </div>
   )
