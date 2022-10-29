@@ -1,10 +1,15 @@
 .projects__container {
     background-color: black;
-    padding: 30px 10px 100px 10px;
+    /* padding: 30px 10px 100px 10px; */
+    padding: 30px 0 40px 0;
 }
 
 .projects__entete{
     text-align: center;
+
+}
+.projects__entete h2 {
+    font-size: 2em;
 }
 
 .projects__entete--title {
@@ -15,17 +20,51 @@
     margin-bottom: 50px;
 }
 
-
 .projects__menu--button {
-    /* display: flex;
-    justify-content: center; */
-    background-color: red;
+    background-image: linear-gradient(to right, #312752 0%, #5f0046  51%, #AA076B  100%);
     border-radius: 50px;
-    padding: 10px;
     margin: auto;
+    padding: 10px;
     text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
     width: 150px;
 }
+
+.projects__menu--button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+ 
 .nav-item{
     padding: 0 15px 0 15px;
 }
+
+.nav-item a {
+    color: white;
+    font-weight: 600;
+}
+
+.projects__menu--projectslist {
+    display: grid;
+    background-color: #2196F3;
+    padding: 5px;
+    margin: 40px 0 40px 0;
+    row-gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+.projects-item{ 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    /* margin: 10px 0 10px 0; */
+}
+
+ 
+         

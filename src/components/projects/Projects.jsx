@@ -12,7 +12,7 @@ const Projects = () => {
         <div className='projects__menu'>
           <div className="projects__menu--button">
             <div className="nav-item">
-              <a href="#">Tab1</a>
+              <a href="#">Plan</a>
             </div>
             {/* <div className="nav-item">
               <a href="#">Tab2</a>
@@ -22,6 +22,14 @@ const Projects = () => {
             </div> */}
           </div>
         </div>
+      <div className="projects__menu--projectslist">
+        <div className='projects-item'>1</div>
+        <div className='projects-item'>2</div>
+        <div className='projects-item'>3</div>
+        <div className='projects-item'>4</div>
+        <div className='projects-item'>5</div>
+        <div className='projects-item'>6</div>
+      </div>
       </div>
     </div>
   )
