@@ -17,13 +17,13 @@ const Header = () => {
           <span className="menu-button"></span>
         </label>
         <ul className="header__menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Skills">Skills</a></li>
           <li><a href="#Projects">Projects</a></li>
           <li><a href="#Services">Services</a></li>
           <li><a href="#" className='header__icon'><BsGithub className='header__icon--params'/></a></li>
           <li><a href="#" className='header__icon'><FaLinkedinIn  className='header__icon--params'/></a></li>
-          <li><a href="#contact" className='header__connect'>Let's Connect</a></li>
+          <li><a href="#Contact" className='header__connect'>Let's Connect</a></li>
         </ul>
       </div>
     </header>

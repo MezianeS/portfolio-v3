@@ -10,7 +10,7 @@ const Skills = () => {
     <div className='container skills__container'>
       <div className='skills__fontimg'></div>
       <div className="skills__menu">
-        <h2 id="skills">Skills</h2>
+        <h2 id="Skills">Skills</h2>
         <p>Keen in solving problems and building solutions</p>
         <p>I like to code things from scratch and enjoy bringing ideas to life in browser.</p>
         {/* After creation of slider, comment this */}
