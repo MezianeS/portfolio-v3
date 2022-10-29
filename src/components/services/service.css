@@ -25,5 +25,10 @@
 
 .s__main-icons {
     font-size: 50px;
-    animation: var(--animation);
+    animation: var(--animation-rotate);
+}
+
+.s__main-levitate {
+    font-size: 50px;
+    animation: var(--animation-icons);
 }

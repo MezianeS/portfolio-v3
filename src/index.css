@@ -30,6 +30,7 @@ html{
   --transition: all 400ms ease;
   --animation: float 6s ease-in-out infinite;
   --animation-icons: float-icons 3s ease-in-out infinite;
+  --animation-rotate: rotate-center 7s ease-in-out infinite;
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-ms: 90%;
@@ -101,7 +102,7 @@ p {
 		transform: translatey(0px);
 	}
 	50% {
-		transform: translatey(-40px);
+		transform: translatey(-10px);
 	}
 	100% {
 		transform: translatey(0px);
@@ -128,4 +129,26 @@ p {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+/* Rotate */
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
