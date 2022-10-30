@@ -1,6 +1,5 @@
 import React from 'react'
 import './navbar.css'
-import HeaderSocials from '../header/HeaderSocials'
 import {AiOutlineHome} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'

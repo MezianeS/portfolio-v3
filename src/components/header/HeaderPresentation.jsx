@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const HeaderSocials = () => {
+const HeaderPresentation = () => {
   return (
     <div>
       Headersocials
@@ -9,4 +9,4 @@ const HeaderSocials = () => {
   )
 }
 
-export default HeaderSocials
+export default HeaderPresentation
