@@ -34,7 +34,7 @@ const Projects = () => {
       <div className="container projects__container">
         <div className='projects__entete'>
           <h2 id="Projects" className='projects__entete--title'>Projects</h2>
-          <p className='projects__entete--text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos facere tempora expedita animi repudiandae optio architecto aut illo accusantium natus unde porro non aperiam eligendi, sequi nesciunt dolor deleniti qui!</p>
+          <p className='projects__entete--text'>These projects are very graphical in order to match up to the hilt the web today. There are a lot of projects I created for customer or studies. I used Javascript, React, Php and Wordpress.</p>
         </div>
         <div className='projects__menu'>
           <div className="projects__menu--button">
