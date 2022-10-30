@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 840 715" style="enable-background:new 0 0 840 715;" xml:space="preserve">
+	 viewBox="0 0 1218 768" style="enable-background:new 0 0 1218 768;" xml:space="preserve">
 <style type="text/css">
 	.st0{opacity:0.65;fill:url(#SVGID_1_);}
 	.st1{fill:url(#SVGID_2_);}
 </style>
-<radialGradient id="SVGID_1_" cx="1080.8362" cy="709.106" r="246.9886" gradientTransform="matrix(-0.4933 0.8699 -0.8699 -0.4933 1490.3362 -219.1564)" gradientUnits="userSpaceOnUse">
+<radialGradient id="SVGID_1_" cx="1147.8362" cy="754.106" r="246.9886" gradientTransform="matrix(-0.4933 0.8699 -0.8699 -0.4933 1629.53 -210.2402)" gradientUnits="userSpaceOnUse">
 	<stop  offset="0" style="stop-color:#28377A"/>
 	<stop  offset="0.3176" style="stop-color:#293576;stop-opacity:0.6824"/>
 	<stop  offset="0.6573" style="stop-color:#2B2F69;stop-opacity:0.3427"/>
 	<stop  offset="1" style="stop-color:#2F2554;stop-opacity:0"/>
 </radialGradient>
-<circle class="st0" cx="340.35" cy="371.24" r="246.99"/>
-<radialGradient id="SVGID_2_" cx="976.4711" cy="590.6868" r="244.6463" gradientTransform="matrix(-0.4933 0.8699 -0.8699 -0.4933 1490.3362 -219.1564)" gradientUnits="userSpaceOnUse">
+<circle class="st0" cx="407.35" cy="416.24" r="246.99"/>
+<radialGradient id="SVGID_2_" cx="1043.4711" cy="635.6868" r="244.6463" gradientTransform="matrix(-0.4933 0.8699 -0.8699 -0.4933 1629.53 -210.2402)" gradientUnits="userSpaceOnUse">
 	<stop  offset="0" style="stop-color:#FF2AB2;stop-opacity:0.2"/>
 	<stop  offset="0.2526" style="stop-color:#FF2AB2;stop-opacity:0.2"/>
 	<stop  offset="0.2938" style="stop-color:#FF2AB2;stop-opacity:0.2"/>
 	<stop  offset="1" style="stop-color:#FF2AB2;stop-opacity:0"/>
 </radialGradient>
-<circle class="st1" cx="494.84" cy="338.87" r="244.65"/>
+<circle class="st1" cx="561.84" cy="383.87" r="244.65"/>
 </svg>
