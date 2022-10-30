@@ -41,6 +41,9 @@
     animation: var(--animation-icons);
 }
 
+.services__main--content:hover .s__main-levitate {
+    color: #de405b;
+}
 
 @media only screen and (min-width: 768px) { 
     .services__main--container {
