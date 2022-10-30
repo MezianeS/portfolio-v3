@@ -7,21 +7,22 @@ const Footer = () => {
   return (
     <div className='footer__background'> 
       <div className="container footer__container">
-        <div className="footer__title">
-          <h4>Portfolio</h4>
+        <div className="footer__content">
+          <div className="footer__title">
+            <h4>Portfolio</h4>
+          </div>
+          <div className="footer__icons">
+            <ul>
+              <li>
+                <a href="#" className='footer__icons--img'><BsGithub className='footer__icons--params'/></a>
+              </li>
+              <li>
+                <a href="#" className='footer__icons--img'><FaLinkedinIn  className='footer__icons--params'/>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="footer__icons">
-          <ul>
-            <li>
-              <a href="#" className='header__icon'><BsGithub className='header__icon--params'/></a>
-            </li>
-            <li>
-              <a href="#" className='header__icon'><FaLinkedinIn  className='header__icon--params'/>
-              </a>
-            </li>
-          </ul>
-        </div>
-
       </div>
     </div>
   )
