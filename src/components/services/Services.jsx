@@ -14,10 +14,14 @@ const Services = () => {
         <h2 id="Services" className="services__entete--title">
           Services
         </h2>
-        <p className="services__entete--text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsam harum necessitatibus praesentium reiciendis non quibusdam illo?
-        </p>
+        <div className="services__entete--text">
+          <p>
+          {/* Vous pouvez passer commande via le formulaire accessible plus bas, afin d'obtenir des informations et des devis il est aussi possible de laisser un mail. */}
+          You can order from the form below, if you want information and quotes it is also possible to send a mail.
+          </p>
+        </div>
       </div>
+
       <div className="services__main--container">
         <div className='services__main--content'>
           <div className="services__main--title">
@@ -27,7 +31,9 @@ const Services = () => {
             <h4>Development</h4>
           </div>
           <div className="services__main--text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
+             <p>{/*Je construis des applications et sites pour le B2B et B2C, de simples vitrines jusqu'à des sites complexes. */}
+              I build applications and websites for B2B and B2C, from simple websites like showcase to multiples pages websites. 
+            </p>
           </div>
         </div>
         
@@ -37,7 +43,7 @@ const Services = () => {
             <h4>Responsive Design</h4>
           </div>
           <div className="services__main--text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
+            <p>Primordial aujourd'hui, je propose de reconstruire votre site en responsive design ET mobilefirst afin d'assurer un SEO optimal.</p>
           </div>
         </div>
         
@@ -47,7 +53,7 @@ const Services = () => {
             <h4>Web Design</h4>
           </div>
           <div className="services__main--text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
+            <p>La conception de votre site web répondra aux normes visuelles et d'accessibilité tout en respectant votre cahier des charges.</p>
           </div>
         </div>
         
@@ -57,7 +63,7 @@ const Services = () => {
             <h4>Creative Design</h4>
           </div>
           <div className="services__main--text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
+            <p>Profitez des dernières tendances en terme de design, et du suivi de la maquette jusqu'à la mise en production de votre site web.</p>
           </div>
         </div>
         
@@ -67,7 +73,7 @@ const Services = () => {
             <h4>Quick Support</h4>
           </div>
           <div className="services__main--text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
+            <p>Le support est fourni lors de mes prestations afin de garantir un accès fluide à votre application et site internet.</p>
           </div>
         </div>
         
@@ -77,7 +83,7 @@ const Services = () => {
             <h4>Branding Identity</h4>
           </div>
           <div className="services__main--text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur, et voluptates itaque ut quos?</p>
+            <p>I provide une image de marque simple, logique et satisfaisante associant tendance et correspondant aux valeurs de votre marque.</p>
           </div>
         </div>
       
