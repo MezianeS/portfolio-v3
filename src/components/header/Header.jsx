@@ -3,6 +3,8 @@ import './header.css'
 import { BsGithub } from 'react-icons/bs'
 import { FaLinkedinIn } from 'react-icons/fa'
 
+import HeaderPresentation from './HeaderPresentation'
+
 const Header = () => {
   return (
     <header>
