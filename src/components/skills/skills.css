@@ -103,3 +103,11 @@
     }
     
 }
+
+
+@media screen and (orientation: landscape) {
+    .skills__fontimg{ 
+        width: 690px;
+    }
+    
+}
