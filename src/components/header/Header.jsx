@@ -22,8 +22,8 @@ const Header = () => {
           <li><a href="#Skills">Skills</a></li>
           <li><a href="#Projects">Projects</a></li>
           <li><a href="#Services">Services</a></li>
-          <li><a href="https://github.com/MezianeS" className='header__icon'><BsGithub className='header__icon--params'/></a></li>
-          <li><a href="https://www.linkedin.com/in/sofianemeziane/" className='header__icon'><FaLinkedinIn  className='header__icon--params'/></a></li>
+          <li><a href="https://github.com/MezianeS" className='header__icon' target="_blank"><BsGithub className='header__icon--params'/></a></li>
+          <li><a href="https://www.linkedin.com/in/sofianemeziane/" className='header__icon' target="_blank"><FaLinkedinIn  className='header__icon--params'/></a></li>
           <li><a href="#Contact" className='header__connect'>Let's Connect</a></li>
         </ul>
       </div>
