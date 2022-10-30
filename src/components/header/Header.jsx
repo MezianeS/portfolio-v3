@@ -27,6 +27,7 @@ const Header = () => {
           <li><a href="#Contact" className='header__connect'>Let's Connect</a></li>
         </ul>
       </div>
+      <HeaderPresentation />
     </header>
   )
 }
