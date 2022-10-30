@@ -43,7 +43,9 @@ const Services = () => {
             <h4>Responsive Design</h4>
           </div>
           <div className="services__main--text">
-            <p>Primordial aujourd'hui, je propose de reconstruire votre site en responsive design ET mobilefirst afin d'assurer un SEO optimal.</p>
+            <p>{/* Primordial aujourd'hui, je propose de reconstruire votre site en responsive design ET mobilefirst afin d'assurer un SEO optimal. */}
+            Important nowadays, I offer to rebuild your applications and websites to responsive design AND mobile-first in order to optimize SEO.
+            </p>
           </div>
         </div>
         
