@@ -94,7 +94,10 @@ const Services = () => {
             <h4>Branding Identity</h4>
           </div>
           <div className="services__main--text">
-            <p>I provide une image de marque simple, logique et satisfaisante associant tendance et correspondant aux valeurs de votre marque.</p>
+            <p>
+              {/* I provide une image de marque simple, logique et satisfaisante associant tendance et correspondant aux valeurs de votre marque. */}
+              I provide a simple branding identity, satisfying, logical and associating trend and relativing to the values ​​of your brand.
+              </p>
           </div>
         </div>
       
