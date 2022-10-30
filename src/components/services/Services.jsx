@@ -55,7 +55,10 @@ const Services = () => {
             <h4>Web Design</h4>
           </div>
           <div className="services__main--text">
-            <p>La conception de votre site web répondra aux normes visuelles et d'accessibilité tout en respectant votre cahier des charges.</p>
+            <p>
+              {/* La conception de votre site web répondra aux normes visuelles et d'accessibilité tout en respectant votre cahier des charges. */}
+              Conception of your application or website follow visuals requirements and accessibilites while respecting your specifications.  
+            </p>
           </div>
         </div>
         
@@ -65,7 +68,10 @@ const Services = () => {
             <h4>Creative Design</h4>
           </div>
           <div className="services__main--text">
-            <p>Profitez des dernières tendances en terme de design, et du suivi de la maquette jusqu'à la mise en production de votre site web.</p>
+            <p>
+              {/* Profitez des dernières tendances en terme de design, et du suivi de la maquette jusqu'à la mise en production de votre site web. */}
+              Take advantage of the latest design trends and follow-up of the sketch up to the production of your website.
+            </p>
           </div>
         </div>
         
