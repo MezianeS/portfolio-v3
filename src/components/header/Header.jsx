@@ -1,6 +1,5 @@
 import React from 'react'
 import './header.css'
-import Navbar from '../nav/Navbar'
 import { BsGithub } from 'react-icons/bs'
 import { FaLinkedinIn } from 'react-icons/fa'
 
