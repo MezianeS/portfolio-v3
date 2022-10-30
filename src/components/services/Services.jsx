@@ -9,9 +9,9 @@ import { GiMountaintop } from 'react-icons/gi'
 
 const Services = () => {
   return (
-    <div className='container services__container'>
+    <div id="Services" className='container services__container'>
       <div className="services__entete">
-        <h2 id="Services" className="services__entete--title">
+        <h2 className="services__entete--title">
           Services
         </h2>
         <p className="services__entete--text">
