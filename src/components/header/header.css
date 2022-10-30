@@ -1,6 +1,5 @@
 header {
-    height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 1100px;
     padding-top: 2rem;
     background-image: url('../../assets/background.svg');
     background-position: center; 
@@ -12,7 +11,7 @@ header {
     position: absolute;
     width: 60%;
     right: 10%;
-    bottom: 1%;
+    bottom: -200px;
     animation: var(--animation);
     pointer-events: none;
     border: none;
@@ -140,7 +139,7 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
         position: absolute;
         width: 42%;
         right: 5%;
-        bottom: 8%;
+        bottom: -260px;
     }
     
     .header__menu li a {
@@ -166,7 +165,6 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
         height: 450px;
         width: auto;
         right: 5%;
-        bottom: 10%;
     } 
 
     .header__menu li a:hover{
@@ -261,6 +259,13 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
 }
 
 @media only screen and (min-width: 1360px) {
+
+    .header__moiastronaute > img {
+        height: 550px;
+        width: auto;
+        bottom: 5%;
+    } 
+
     .header__menu li {
         padding: 5px 12px 5px 12px;
     }
@@ -273,10 +278,3 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
         font-size: 1.2em;
     }
  }
-
- @media screen and (orientation: landscape) {
-    .header__moiastronaute > img {
-        top: 165%
-    }
-    
-}
