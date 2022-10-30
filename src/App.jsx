@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Header />
-    {/* <Navbar /> */}
+    <Navbar />
     <Skills />
     <Projects />
     <Services />
