@@ -69,10 +69,10 @@
 
 @media only screen and (min-width: 1024px) {
     .slider__menu--left{
-        left: 28%;
+        left: 20%;
     }
     .slider__menu--right{
-        right: 28%;
+        right: 20%;
     }
     
 }
