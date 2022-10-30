@@ -1,6 +1,5 @@
 .headerpresentation__blck {
     padding-top: 220px;
-
 }
 
 .headerpresentation__entete--title {
@@ -16,3 +15,20 @@
 .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }
+
+.headerpresentation__entete--pres {
+    max-height: 220px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .headerpresentation__blck {
+        padding-top: 300px;
+    }
+}
+
+@media only screen and (min-width: 1024px) { 
+    .headerpresentation__entete--pres {
+        max-width: 60%;
+    }
+}
