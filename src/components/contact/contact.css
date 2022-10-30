@@ -63,6 +63,13 @@ input, textarea {
     padding: 15px 10px 15px 10px;
     margin-top: 25px;
 }
+.contact__main--btn:hover {
+    background-color: rgba(153, 153, 153, 0.625);
+}
+
+.contact__main--btn:active {
+    background-color: #de405b;
+}
 
 .contact__main--png {
     width: 100%;
@@ -87,4 +94,6 @@ input, textarea {
     input, textarea, .contact__main--btn {
         font-size: 16px;
     }
+
+
 }
