@@ -1,0 +1,18 @@
+.headerpresentation__blck {
+    padding-top: 220px;
+
+}
+
+.headerpresentation__entete--title {
+    font-weight: 600;
+    padding: 8px 10px;
+    background-image: linear-gradient(to right, #31275285 0%, #5f00461e 51%, #aa076c7b 100%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+    max-width: 280px;
+}
+
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
