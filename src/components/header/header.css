@@ -1,5 +1,6 @@
 header {
     height: 100vh;
+    min-height: 920px;
     padding-top: 2rem;
     background-image: url('../../assets/background.svg');
     background-position: center; 
@@ -11,7 +12,7 @@ header {
     position: absolute;
     width: 60%;
     right: 10%;
-    bottom: 10%;
+    bottom: 1%;
     animation: var(--animation);
     pointer-events: none;
     border: none;
@@ -272,3 +273,8 @@ box-shadow: 0px 10px 13px -7px #343434, 2px 23px 20px -1px rgba(0,0,0,0.43); */
         font-size: 1.2em;
     }
  }
+
+ @media (orientation: landscape) {
+
+    
+}
