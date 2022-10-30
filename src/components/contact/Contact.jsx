@@ -20,14 +20,14 @@ const Contact = () => {
       e.target.reset();
   };
   return (
-    <div className='contact__background'>
+    <div id='Contact' className='contact__background'>
       <div className="container contact__container">
         <div className="contact__main--img">
           <img src={ Contactimg } alt="Développeur devant son pc" className='contact__main--png'/>
         </div>
         <div className="contact__menu">
           <div className='contact__entete'>
-            <h2 id='Contact' className='contact__entete--title'>Get In Touch</h2>
+            <h2 className='contact__entete--title'>Get In Touch</h2>
           </div>
           {/* mail */}
           <div className='contact__main--mail'>
