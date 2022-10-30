@@ -81,7 +81,10 @@ const Services = () => {
             <h4>Quick Support</h4>
           </div>
           <div className="services__main--text">
-            <p>Le support est fourni lors de mes prestations afin de garantir un accès fluide à votre application et site internet.</p>
+            <p>
+              {/* Le support est fourni lors de mes prestations afin de garantir un accès fluide à votre application et site internet. */}
+              Support is provided to ensure smooth access to your applications and websites over time.
+            </p>
           </div>
         </div>
         
