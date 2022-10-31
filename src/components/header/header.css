@@ -15,6 +15,7 @@ header {
     animation: var(--animation);
     pointer-events: none;
     border: none;
+    z-index: 15;
 }
 
 .header__title{
